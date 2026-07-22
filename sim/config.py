@@ -23,4 +23,4 @@ MAX_TIME = 100.0       # tiempo máximo antes de declarar "no converge"
 # Parámetros del barrido (grilla de condiciones iniciales)
 GRID_X_RANGE = (-3.0, 3.0)
 GRID_Y_RANGE = (-3.0, 3.0)
-GRID_RESOLUTION = 500  # 200x200 puntos, ajustable según potencia de cómputo
+GRID_RESOLUTION = 1000  # 200x200 puntos, ajustable según potencia de cómputo
