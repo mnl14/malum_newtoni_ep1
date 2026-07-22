@@ -1,0 +1,3 @@
+numpy>=1.26
+manim>=0.18
+matplotlib
