@@ -7,7 +7,7 @@ START_POS = np.array([b["pos"] for b in BODIES], dtype=np.float64)
 END_POS = np.array([
     (-1.5, 0),
     ( 0, 0),
-    ( 1,5, 0),
+    ( 1.5, 0),
 ])
 
 def body_positions_at(t):
