@@ -18,7 +18,7 @@ COLLISION_RADIUS = 0.05
 
 # Parámetros de integración
 DT = 0.01              # paso de tiempo
-MAX_TIME = 100.0       # tiempo máximo antes de declarar "no converge"
+MAX_TIME = 500.0       # tiempo máximo antes de declarar "no converge"
 
 # Parámetros del barrido (grilla de condiciones iniciales)
 GRID_X_RANGE = (-3.0, 3.0)
