@@ -54,5 +54,16 @@ def sweep_kernel(x_min, x_max, y_min, y_max, nx, ny,
         if col != -2:
             result = col
             break
+        if result == -1:
+            min_dist = 1e18
+            nearest = -1
+            for k in range(n_bodies):
+                dx = x - body_x[k]
+                dy = y - body_y[k]
+                dist2 = dx*dx + dy*dy
+                if dist2 < min_dist:
+                    min_dist = dist2
+                    nearest = k
+            result = nearest
 
     output[i, j] = result
